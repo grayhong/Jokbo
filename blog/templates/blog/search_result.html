@@ -1,0 +1,28 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div class="cover">
+	<div class="container-fluid text-left">
+		<div class="row content">
+			<div class="col-sm-12 text-left">
+				<h2 style="padding: 20px; padding-bottom: 5px;"> 검색 결과 </h2>
+				{% ifequal subject null%}
+				<div class = "no_match">
+					<h3> No Subject Found </h3>
+				</div>
+				{% else %}
+				<h3 class="search_result" >
+					<ul>
+						{% for sub in subject %}
+						<li class="result_list"> <a href="{% url 'board_list' pk=sub.pk %}" class = "result" > {{sub.subject_name}} </a></li>
+						<p></p>
+						{% endfor %}
+					</ul>
+				</h3>
+				{% endifequal %}
+
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

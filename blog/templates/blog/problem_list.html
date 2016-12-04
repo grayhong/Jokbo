@@ -1,0 +1,28 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+{% for problem in problems %}
+{% ifequal problem.is_deleted False %}
+<div class="post">
+    <div class="prob_num">
+        {{ problem.num_name }}
+    </div>
+    <img src="./../../../../media/{{problem.photo}}" />
+    <p>{{ problem.text|linebreaksbr }}</p>
+    <div class="best_sol">
+        {% ifequal problem.getSol null %}
+        <p> dd </p>
+        {% else %}
+        <a href='javascript:void(0)' onclick="this.innerHTML=(this.nextSibling.style.display=='none')?'풀이 닫기':'풀이 보기';this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none'";>풀이 보기</a>
+        <div class = "bestsol" style='display:none'>
+            <img src="./../../../../media/{{problem.getBestSol.photo}}" />
+            <p>{{ problem.getBestSol.text|linebreaksbr }}</p>
+            <a href="{% url 'solution_list' pk=problem.pk %}" class="url_link">다른 풀이 보기 </a>
+        </div>
+        {% endifequal %}
+
+    </div>
+</div>
+{% endifequal %}
+{% endfor %}
+{% endblock content %}

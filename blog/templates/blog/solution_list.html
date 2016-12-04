@@ -1,0 +1,11 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for sol in solutions %}
+    	{% ifequal sol.is_deleted False %}
+        <div class="post">
+            <h1><a href="{% url 'solution_detail' pk=post.pk %}">{{ sol.name }}</a></h1>
+        </div>
+        {% endifequal %}
+    {% endfor %}
+{% endblock content %}

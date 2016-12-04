@@ -1,0 +1,29 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div class="cover">
+	<div class= "board_list">
+		<div class="container-fluid">
+
+			<div class="row content">
+				<div class="col-sm-12 text-left">
+					<div class="write">
+						<h1> {{subject.subject_name}} 족보 추가하기  <a href="{% url 'board_new' pk=subject.pk %}" class="top-menu" style="padding:10px"><span class="glyphicon glyphicon-plus"></span></a> </h1>
+					</div>
+					{% ifequal boards null %}
+					<div class = "no_match">
+						<h3> No Subject Found </h3>
+					</div>
+					{% else %}
+					{% for board in boards %}
+					<a href="{% url 'board_view' pk=board.pk %}"> <h2>{{board|linebreaksbr}}</h2>  </a>
+					{% endfor %}
+
+					{% endifequal %}
+
+					</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

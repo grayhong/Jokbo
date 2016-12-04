@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div class="cover">
+<h1> New 족보 </h1>
+<form method="Post" class="post-form" enctype="multipart/form-data">{% csrf_token %}
+	<table>
+		{{ form.as_table }}
+	</table>
+	<button type="submit" class = "save btn btn-default"> Save</button>
+</form>
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+	<div class = "post">
+		<a class="btn btn-default" href="{% url 'solution_edit' pk=post.pk %}"><span class="glyphicon glyphicon-pencil"></span></a>
+		<form method = "post" action = "{% url 'solution_delete' pk=post.pk %}">
+		{% csrf_token %}
+		<button type="submit" class = "delete btn"> Delete</button>
+		</form>
+		<img src="./../../../../media/{{sol.photo}}" />
+		<p>{{sol.text|linebreaksbr}}</p>
+	</div>
+{% endblock %}

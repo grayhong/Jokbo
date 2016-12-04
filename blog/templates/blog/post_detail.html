@@ -1,0 +1,57 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+<div class="cover">
+<div class="board" >
+	<div class="return">
+		<a href="{% url 'board_view' pk=board.pk %}"><h1> 문제로 돌아가기 </h1></a>
+	</div>
+</div>
+<div class = "post">
+	{% if post.published_date %}
+	<div class = "date">
+		{{post.published_date}}
+	</div>
+	{% endif %}
+
+	<h1>{{post.title|linebreaksbr}}
+		<h3 class="title">like : <span id="like_count">{{post.like}}</span> </h3>
+	</h1>
+	{% ifequal post.author.username user.username %}
+	<a class="btn btn-default" href="{% url 'post_edit' pk=post.pk %}" style="float:right;"><span class="glyphicon glyphicon-pencil"></span>
+	</a>
+	<form method = "post" action = "{% url 'post_delete' pk=post.pk %}">
+		{% csrf_token %}
+		<button type="submit" class = "delete btn" style="float:right;"> Delete</button>
+	</form>
+	{% else %}
+	{% endifequal %}
+	<div class = "detail" style="float:none;">
+		<img class = "detail_img" src="./../../../../media/{{post.photo}}" />
+		<h4>{{post.text|linebreaksbr}}</h4>
+
+
+	</div>
+
+	
+
+	{% if liked %}
+	{% else %}
+	<button type="button" id="like" value="like" data-post-id="{{ post.pk }}" style = "font-size: 100%" class="btn btn-default btn-lg">
+		<small><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></small> Like
+	</button>
+	{% endif %}
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+		$('#like').click(function(){
+			var id;
+			id = $(this).attr('data-post-id');
+			$.get('./../../get_like', {category_id: id}, function(data){
+				$('#like_count').html(data);
+			});
+		});
+	</script>
+
+</div>
+</div>
+{% endblock %}
