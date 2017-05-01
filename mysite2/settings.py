@@ -25,7 +25,7 @@ SECRET_KEY = 'd9r-e03t^)8q@ag%p_hpctuu37x7*$+w5pc$l=g)yi2io=u(-&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bit.sparcs.org']
 
 
 # Application definition

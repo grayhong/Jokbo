@@ -1,0 +1,127 @@
+POST /process/smssend.aspx HTTP/1.1
+Host: www.pongdang.net
+Content-Length: 104
+Cache-Control: max-age=0
+Origin: http://www.pongdang.net
+Cookie: ACEFCID=UID-5879CE2779734E8DAFAFE9B3; notice_popup01=false; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; __utmt=1; discount_pop=false; JSESSIONID=DBDF48B50624EB72F3F361E29C18CEEF; __utma=173420834.1452329763.1484377640.1484377640.1484377640.1; __utmb=173420834.69.10.1484377640; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=123123
+Connection: close
+
+isbook=false&ismulti=false&msg1=123123&msg2=&msg3=&msg4=&msg5=&ymd=&hh=&mm=&msgcnt=1&callback=0423506207
+
+
+
+POST /process/smssend.aspx HTTP/1.1
+Host: www.pongdang.net
+Content-Length: 104
+Cache-Control: max-age=0
+Origin: http://www.pongdang.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://www.pongdang.net/sms/send.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: ACEFCID=UID-5879CE2779734E8DAFAFE9B3; notice_popup01=false; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; discount_pop=false; JSESSIONID=2C69532FE01D9D3720450F22E430092C; __utmt=1; __utma=173420834.1452329763.1484377640.1484377640.1484393340.2; __utmb=173420834.13.10.1484393340; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=123123; __utmt=1; ACEFCID=UID-5879CE2779734E8DAFAFE9B3; discount_pop=false; JSESSIONID=2C69532FE01D9D3720450F22E430092C; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; notice_popup01=false; __utma=173420834.1452329763.1484377640.1484377640.1484393340.2; __utmb=173420834.53.10.1484393340; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=123123
+Connection: close
+
+isbook=false&ismulti=false&msg1=123123&msg2=&msg3=&msg4=&msg5=&ymd=&hh=&mm=&msgcnt=1&callback=0423506207
+
+
+POST /process/smssend.aspx HTTP/1.1
+Host: www.pongdang.net
+Content-Length: 104
+Origin: http://www.pongdang.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Postman-Token: 18fb1572-1969-7af3-3937-894ee7cf12b3
+Accept-Encoding: gzip, deflate
+Referer: http://www.pongdang.net/sms/send.aspx
+Connection: close
+
+isbook=false&ismulti=false&msg1=123123&msg2=&msg3=&msg4=&msg5=&ymd=&hh=&mm=&msgcnt=1&callback=0423506207
+
+
+
+
+
+POST /process/smssend.aspx HTTP/1.1
+Host: www.pongdang.net
+Content-Length: 110
+Cache-Control: max-age=0
+Origin: http://www.pongdang.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://www.pongdang.net/sms/send.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: ACEFCID=UID-5879CE2779734E8DAFAFE9B3; notice_popup01=false; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; discount_pop=false; JSESSIONID=2C69532FE01D9D3720450F22E430092C; __utmt=1; __utma=173420834.1452329763.1484377640.1484377640.1484393340.2; __utmb=173420834.13.10.1484393340; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=123123; ACEFCID=UID-5879CE2779734E8DAFAFE9B3; discount_pop=false; JSESSIONID=2C69532FE01D9D3720450F22E430092C; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; notice_popup01=false; __utmt=1; __utma=173420834.1452329763.1484377640.1484377640.1484393340.2; __utmb=173420834.16.10.1484393340; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=%3E%3Csdsdsf
+Connection: close
+
+isbook=false&ismulti=false&msg1=%3E%3Csdsdsf&msg2=&msg3=&msg4=&msg5=&ymd=&hh=&mm=&msgcnt=1&callback=0423506207
+
+
+
+POST /process/smssend.aspx HTTP/1.1
+Host: www.pongdang.net
+Content-Length: 104
+Cache-Control: max-age=0
+Origin: http://www.pongdang.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://www.pongdang.net/sms/send.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: ACEFCID=UID-5879CE2779734E8DAFAFE9B3; notice_popup01=false; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; discount_pop=false; JSESSIONID=2C69532FE01D9D3720450F22E430092C; __utmt=1; __utma=173420834.1452329763.1484377640.1484377640.1484393340.2; __utmb=173420834.13.10.1484393340; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=123123; ACEFCID=UID-5879CE2779734E8DAFAFE9B3; discount_pop=false; JSESSIONID=2C69532FE01D9D3720450F22E430092C; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; notice_popup01=false; __utma=173420834.1452329763.1484377640.1484377640.1484393340.2; __utmb=173420834.17.10.1484393340; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=123123
+Connection: close
+
+isbook=false&ismulti=false&msg1=123123&msg2=&msg3=&msg4=&msg5=&ymd=&hh=&mm=&msgcnt=1&callback=0423506207
+
+
+
+
+POST /process/smssend.aspx HTTP/1.1
+Host: www.pongdang.net
+Content-Length: 104
+Cache-Control: max-age=0
+Origin: http://www.pongdang.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://www.pongdang.net/sms/send.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: ACEFCID=UID-5879CE2779734E8DAFAFE9B3; notice_popup01=false; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; discount_pop=false; JSESSIONID=2C69532FE01D9D3720450F22E430092C; __utmt=1; __utma=173420834.1452329763.1484377640.1484377640.1484393340.2; __utmb=173420834.13.10.1484393340; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=123123; ACEFCID=UID-5879CE2779734E8DAFAFE9B3; discount_pop=false; JSESSIONID=2C69532FE01D9D3720450F22E430092C; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; notice_popup01=false; __utmt=1; __utma=173420834.1452329763.1484377640.1484377640.1484393340.2; __utmb=173420834.18.10.1484393340; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=123123
+Connection: close
+
+isbook=false&ismulti=false&msg1=123123&msg2=&msg3=&msg4=&msg5=&ymd=&hh=&mm=&msgcnt=1&callback=0423506207
+
+
+
+
+
+
+
+POST /sms/sendinglist.aspx HTTP/1.1
+Host: www.pongdang.net
+Content-Length: 29
+Cache-Control: max-age=0
+Origin: http://www.pongdang.net
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Referer: http://www.pongdang.net/sms/sendinglist.aspx
+Accept-Encoding: gzip, deflate
+Accept-Language: ko-KR,ko;q=0.8,en-US;q=0.6,en;q=0.4
+Cookie: ACEFCID=UID-5879CE2779734E8DAFAFE9B3; discount_pop=false; JSESSIONID=2C69532FE01D9D3720450F22E430092C; lastpage=http%3A//www.pongdang.net/sendedlist.aspx; notice_popup01=false; __utmt=1; __utma=173420834.1452329763.1484377640.1484377640.1484393340.2; __utmb=173420834.19.10.1484393340; __utmc=173420834; __utmz=173420834.1484377640.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); txtmsg=
+Connection: close
+
+phone=01045720625&addOne=true

@@ -9,7 +9,7 @@ class PostForm(forms.ModelForm):
 
 	class Meta:
 		model = Post
-		fields = {'title', 'text', 'photo'}
+		fields = {'title', 'text', 'photo', 'problem_num'}
 
 
 class BoardForm(forms.ModelForm):
